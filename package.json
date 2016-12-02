@@ -1,0 +1,27 @@
+{
+  "name": "webrtc-video-call",
+  "version": "1.0.0",
+  "description": "Sample Video Call Between Two Different Browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ibrahim12/webrtc-video-call-example.git"
+  },
+  "keywords": [
+    "webrtc-video-call",
+    "webrtc-kickstart",
+    "webrtc-quick"
+  ],
+  "author": "Ibrahim Rashid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibrahim12/webrtc-video-call-example/issues"
+  },
+  "homepage": "https://github.com/ibrahim12/webrtc-video-call-example#readme",
+  "dependencies": {
+    "total.js": "^2.2.0"
+  }
+}

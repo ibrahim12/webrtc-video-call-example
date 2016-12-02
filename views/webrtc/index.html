@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>T1</title>
+        <script src="webrtc/adapter.js" type="text/javascript" ></script>
+        <script src="webrtc/webrtc.js" type="text/javascript" ></script>
+    </head>
+    <body>
+        <button onclick="RingCallSDK.start(true)">Call</button>
+
+        <br />
+        <br />
+
+        <p>SRC : </p>
+        <video id="src" autoplay controls></video>
+        <p>REMOTE : </p>
+        <video id="dest" autoplay controls></video>
+        <div id="content"></div>
+    </body>
+</html>
