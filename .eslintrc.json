@@ -1,6 +1,6 @@
 {
     "env": {
-        "browser": true
+        "browser": false
     },
     "extends": "eslint:recommended",
     "fix": true,
@@ -252,6 +252,8 @@
     "no-unused-vars": [2, { "vars": "local", "args": "after-used" }]
     },
     "globals": {
-        "trace": true
+        "trace": true,
+        "F": true,
+        "require": true
     }
 }
