@@ -14,7 +14,7 @@
             voiceActivityDetection: false,
         },
         localStream,
-        _socket = new WebSocket('wss://192.168.1.112/'),
+        _socket = new WebSocket('wss://' +  window.location.hostname + '/'),
         signalSrc = 'receiver',
         video,
         rvideo,
